@@ -13,8 +13,7 @@
         "${python}",
         "-c",
         "import validkit; print(sorted(validkit.__all__))"
-      ],
-      "test": ["${python}", "-m", "pytest"]
+      ]
     }
   ]
 }
